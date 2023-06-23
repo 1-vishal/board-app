@@ -9,8 +9,8 @@ function App() {
     <Router>
     <div className={AppStyle.appContainer}>
         <Sidebar />
-        <Route exact path='/boardApp/' component={NoticeBoard} />
-        <Route exact path='/boardApp/QuotationBoard' component={QuotationBoard} />
+        <Route exact path='/board-app/' component={NoticeBoard} />
+        <Route exact path='/board-app/QuotationBoard' component={QuotationBoard} />
     </div>
     </Router>
   );
