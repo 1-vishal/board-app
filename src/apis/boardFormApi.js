@@ -1,4 +1,4 @@
-const baseUrl = 'https://1-vishal.github.io/boardApp';
+const baseUrl = 'https://my-json-server.typicode.com/1-vishal/board-json-server';
 
 export const getAll = (type) => {
     var result = fetch(`${baseUrl}/${type}`).then(res =>
