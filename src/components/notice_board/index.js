@@ -43,7 +43,7 @@ function NoticeBoard() {
                         </Card.Text>
                         <p>by {notice.author}</p>
                         <div className='d-flex justify-content-between'>
-                            <img src='/boardApp/trash.png' alt='delete' onClick={async() => await deleteData(notice.id, type)}></img>
+                            <img src='/board-app/trash.png' alt='delete' onClick={async() => await deleteData(notice.id, type)}></img>
                             <Button variant="primary" onClick={() => editNotice(notice.id)}>update</Button>
                         </div>
                     </Card.Body>
